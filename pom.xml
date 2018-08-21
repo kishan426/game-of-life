@@ -17,7 +17,6 @@
         <targetJdk>1.8</targetJdk>
         <github.account>wakaleo</github.account>
         <thucydides.version>1.8.4</thucydides.version>
-         <suiteXmlFile>src/test/resources/Default-Suite.xml</suiteXmlFile>
         <jelastic.context>gameoflife</jelastic.context>
         <jelastic.environment>wakaleo</jelastic.environment>
     </properties>
@@ -42,10 +41,8 @@
                 <version>2.20</version>
                 <configuration>
                     <skip>true</skip>
-                    <configuration>
-    <testFailureIgnore>true</testFailureIgnore>
-  </configuration>
-                </configuration>
+              
+              </configuration>
                 <executions>
                     <execution>
                         <id>unit-tests</id>
